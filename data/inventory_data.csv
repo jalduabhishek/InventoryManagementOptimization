@@ -1,0 +1,1001 @@
+Product_ID,Category,Warehouse,Current_Stock,Daily_Demand,Supplier_Lead_Time_Days,Unit_Cost_INR,Days_of_Stock,Reorder_Point,Reorder_Required,Stockout,Inventory_Value_INR
+P0001,Groceries,Hyderabad,439,40,4,214,10.98,160,False,False,93946
+P0002,Snacks,Bangalore,31,35,9,53,0.89,315,True,False,1643
+P0003,Snacks,Bangalore,199,47,1,635,4.23,47,False,False,126365
+P0004,Dairy,Hyderabad,229,49,5,690,4.67,245,True,False,158010
+P0005,Dairy,Delhi,399,37,9,777,10.78,333,False,False,310023
+P0006,Personal Care,Hyderabad,64,22,10,952,2.91,220,True,False,60928
+P0007,Groceries,Hyderabad,217,32,3,507,6.78,96,False,False,110019
+P0008,Snacks,Bangalore,76,24,7,833,3.17,168,True,False,63308
+P0009,Beverages,Bangalore,394,33,2,722,11.94,66,False,False,284468
+P0010,Groceries,Bangalore,316,42,2,291,7.52,84,False,False,91956
+P0011,Dairy,Mumbai,248,21,4,849,11.81,84,False,False,210552
+P0012,Personal Care,Hyderabad,196,28,9,72,7.0,252,True,False,14112
+P0013,Snacks,Delhi,76,7,7,607,10.86,49,False,False,46132
+P0014,Snacks,Mumbai,461,38,5,942,12.13,190,False,False,434262
+P0015,Snacks,Bangalore,324,27,3,666,12.0,81,False,False,215784
+P0016,Snacks,Hyderabad,159,26,2,939,6.12,52,False,False,149301
+P0017,Dairy,Mumbai,207,29,3,75,7.14,87,False,False,15525
+P0018,Groceries,Mumbai,363,14,2,542,25.93,28,False,False,196746
+P0019,Personal Care,Delhi,360,32,2,785,11.25,64,False,False,282600
+P0020,Dairy,Delhi,231,39,7,650,5.92,273,True,False,150150
+P0021,Dairy,Delhi,151,21,2,883,7.19,42,False,False,133333
+P0022,Beverages,Delhi,330,11,1,473,30.0,11,False,False,156090
+P0023,Groceries,Hyderabad,329,22,6,689,14.95,132,False,False,226681
+P0024,Personal Care,Hyderabad,300,14,3,431,21.43,42,False,False,129300
+P0025,Snacks,Hyderabad,36,22,5,875,1.64,110,True,False,31500
+P0026,Snacks,Delhi,236,33,2,137,7.15,66,False,False,32332
+P0027,Dairy,Delhi,307,10,3,269,30.7,30,False,False,82583
+P0028,Personal Care,Mumbai,475,39,5,114,12.18,195,False,False,54150
+P0029,Dairy,Bangalore,263,15,7,708,17.53,105,False,False,186204
+P0030,Dairy,Mumbai,171,46,5,248,3.72,230,True,False,42408
+P0031,Dairy,Mumbai,278,38,6,331,7.32,228,False,False,92018
+P0032,Beverages,Delhi,88,17,6,840,5.18,102,True,False,73920
+P0033,Groceries,Bangalore,45,30,3,373,1.5,90,True,False,16785
+P0034,Dairy,Mumbai,339,10,3,163,33.9,30,False,False,55257
+P0035,Personal Care,Delhi,494,9,5,40,54.89,45,False,False,19760
+P0036,Groceries,Bangalore,423,48,1,242,8.81,48,False,False,102366
+P0037,Personal Care,Hyderabad,292,41,7,917,7.12,287,False,False,267764
+P0038,Personal Care,Delhi,20,12,7,558,1.67,84,True,False,11160
+P0039,Beverages,Mumbai,494,18,4,995,27.44,72,False,False,491530
+P0040,Snacks,Hyderabad,225,14,4,231,16.07,56,False,False,51975
+P0041,Groceries,Bangalore,145,23,4,364,6.3,92,False,False,52780
+P0042,Snacks,Hyderabad,447,18,7,180,24.83,126,False,False,80460
+P0043,Snacks,Mumbai,373,20,8,410,18.65,160,False,False,152930
+P0044,Beverages,Mumbai,375,29,2,572,12.93,58,False,False,214500
+P0045,Groceries,Bangalore,139,13,5,812,10.69,65,False,False,112868
+P0046,Personal Care,Delhi,496,45,1,381,11.02,45,False,False,188976
+P0047,Dairy,Delhi,226,38,5,776,5.95,190,False,False,175376
+P0048,Personal Care,Bangalore,266,39,3,634,6.82,117,False,False,168644
+P0049,Snacks,Bangalore,376,12,4,306,31.33,48,False,False,115056
+P0050,Snacks,Delhi,330,37,5,914,8.92,185,False,False,301620
+P0051,Snacks,Bangalore,86,43,4,445,2.0,172,True,False,38270
+P0052,Groceries,Mumbai,151,13,4,168,11.62,52,False,False,25368
+P0053,Beverages,Bangalore,180,39,8,964,4.62,312,True,False,173520
+P0054,Dairy,Hyderabad,474,21,9,916,22.57,189,False,False,434184
+P0055,Dairy,Delhi,357,41,1,68,8.71,41,False,False,24276
+P0056,Groceries,Hyderabad,183,27,4,905,6.78,108,False,False,165615
+P0057,Dairy,Mumbai,368,41,9,949,8.98,369,True,False,349232
+P0058,Groceries,Hyderabad,369,11,6,833,33.55,66,False,False,307377
+P0059,Snacks,Mumbai,197,22,3,270,8.95,66,False,False,53190
+P0060,Snacks,Mumbai,201,17,6,639,11.82,102,False,False,128439
+P0061,Personal Care,Hyderabad,448,16,2,548,28.0,32,False,False,245504
+P0062,Snacks,Bangalore,281,19,1,628,14.79,19,False,False,176468
+P0063,Beverages,Delhi,74,22,7,624,3.36,154,True,False,46176
+P0064,Personal Care,Bangalore,360,10,6,647,36.0,60,False,False,232920
+P0065,Dairy,Hyderabad,295,37,8,524,7.97,296,True,False,154580
+P0066,Beverages,Mumbai,254,30,4,697,8.47,120,False,False,177038
+P0067,Personal Care,Hyderabad,363,43,9,536,8.44,387,True,False,194568
+P0068,Beverages,Bangalore,454,37,5,36,12.27,185,False,False,16344
+P0069,Groceries,Mumbai,165,11,8,54,15.0,88,False,False,8910
+P0070,Dairy,Delhi,210,8,2,959,26.25,16,False,False,201390
+P0071,Snacks,Bangalore,94,24,1,911,3.92,24,False,False,85634
+P0072,Groceries,Delhi,324,27,8,594,12.0,216,False,False,192456
+P0073,Dairy,Hyderabad,201,16,9,191,12.56,144,False,False,38391
+P0074,Groceries,Bangalore,171,40,10,786,4.28,400,True,False,134406
+P0075,Snacks,Mumbai,348,31,4,160,11.23,124,False,False,55680
+P0076,Dairy,Delhi,204,39,1,390,5.23,39,False,False,79560
+P0077,Beverages,Bangalore,232,10,10,343,23.2,100,False,False,79576
+P0078,Beverages,Delhi,220,42,7,32,5.24,294,True,False,7040
+P0079,Dairy,Mumbai,129,14,3,811,9.21,42,False,False,104619
+P0080,Snacks,Hyderabad,63,25,8,520,2.52,200,True,False,32760
+P0081,Personal Care,Hyderabad,414,25,10,330,16.56,250,False,False,136620
+P0082,Dairy,Hyderabad,45,42,3,517,1.07,126,True,False,23265
+P0083,Groceries,Hyderabad,162,17,8,20,9.53,136,False,False,3240
+P0084,Personal Care,Bangalore,334,16,8,448,20.88,128,False,False,149632
+P0085,Snacks,Delhi,65,20,6,529,3.25,120,True,False,34385
+P0086,Snacks,Hyderabad,328,21,7,353,15.62,147,False,False,115784
+P0087,Groceries,Hyderabad,367,13,3,834,28.23,39,False,False,306078
+P0088,Beverages,Hyderabad,332,13,10,265,25.54,130,False,False,87980
+P0089,Snacks,Bangalore,152,15,10,155,10.13,150,False,False,23560
+P0090,Personal Care,Delhi,9,26,10,537,0.35,260,True,False,4833
+P0091,Dairy,Bangalore,444,20,8,890,22.2,160,False,False,395160
+P0092,Personal Care,Mumbai,163,23,1,388,7.09,23,False,False,63244
+P0093,Personal Care,Hyderabad,403,38,4,65,10.61,152,False,False,26195
+P0094,Beverages,Mumbai,99,16,5,971,6.19,80,False,False,96129
+P0095,Personal Care,Mumbai,81,46,10,455,1.76,460,True,False,36855
+P0096,Beverages,Delhi,389,39,6,189,9.97,234,False,False,73521
+P0097,Beverages,Hyderabad,470,13,6,623,36.15,78,False,False,292810
+P0098,Snacks,Hyderabad,431,19,2,333,22.68,38,False,False,143523
+P0099,Snacks,Delhi,376,13,8,939,28.92,104,False,False,353064
+P0100,Groceries,Mumbai,123,17,4,308,7.24,68,False,False,37884
+P0101,Personal Care,Mumbai,457,21,1,559,21.76,21,False,False,255463
+P0102,Groceries,Mumbai,334,11,10,552,30.36,110,False,False,184368
+P0103,Personal Care,Hyderabad,86,5,2,257,17.2,10,False,False,22102
+P0104,Groceries,Delhi,64,25,1,509,2.56,25,False,False,32576
+P0105,Snacks,Mumbai,436,37,1,126,11.78,37,False,False,54936
+P0106,Snacks,Delhi,137,18,5,651,7.61,90,False,False,89187
+P0107,Snacks,Delhi,383,44,2,763,8.7,88,False,False,292229
+P0108,Snacks,Hyderabad,69,21,9,951,3.29,189,True,False,65619
+P0109,Dairy,Hyderabad,140,46,6,339,3.04,276,True,False,47460
+P0110,Snacks,Delhi,142,15,4,299,9.47,60,False,False,42458
+P0111,Beverages,Bangalore,140,29,1,558,4.83,29,False,False,78120
+P0112,Snacks,Delhi,338,40,5,699,8.45,200,False,False,236262
+P0113,Dairy,Delhi,458,7,2,993,65.43,14,False,False,454794
+P0114,Dairy,Mumbai,456,47,10,44,9.7,470,True,False,20064
+P0115,Dairy,Delhi,371,21,3,253,17.67,63,False,False,93863
+P0116,Dairy,Mumbai,101,27,5,277,3.74,135,True,False,27977
+P0117,Groceries,Hyderabad,481,33,1,270,14.58,33,False,False,129870
+P0118,Groceries,Bangalore,271,34,2,474,7.97,68,False,False,128454
+P0119,Beverages,Bangalore,273,6,3,876,45.5,18,False,False,239148
+P0120,Groceries,Mumbai,351,44,1,50,7.98,44,False,False,17550
+P0121,Dairy,Delhi,385,33,8,820,11.67,264,False,False,315700
+P0122,Snacks,Delhi,477,50,10,625,9.54,500,True,False,298125
+P0123,Snacks,Mumbai,291,26,10,623,11.19,260,False,False,181293
+P0124,Dairy,Delhi,305,33,3,685,9.24,99,False,False,208925
+P0125,Personal Care,Hyderabad,373,25,8,133,14.92,200,False,False,49609
+P0126,Dairy,Hyderabad,127,45,6,752,2.82,270,True,False,95504
+P0127,Groceries,Hyderabad,154,43,1,263,3.58,43,False,False,40502
+P0128,Snacks,Bangalore,313,46,1,526,6.8,46,False,False,164638
+P0129,Dairy,Bangalore,32,28,6,684,1.14,168,True,False,21888
+P0130,Snacks,Bangalore,160,41,5,612,3.9,205,True,False,97920
+P0131,Dairy,Mumbai,359,21,1,336,17.1,21,False,False,120624
+P0132,Dairy,Bangalore,489,26,10,408,18.81,260,False,False,199512
+P0133,Groceries,Hyderabad,260,39,8,487,6.67,312,True,False,126620
+P0134,Dairy,Hyderabad,200,8,6,60,25.0,48,False,False,12000
+P0135,Snacks,Bangalore,220,37,10,732,5.95,370,True,False,161040
+P0136,Beverages,Delhi,343,5,10,118,68.6,50,False,False,40474
+P0137,Snacks,Bangalore,272,31,10,469,8.77,310,True,False,127568
+P0138,Groceries,Mumbai,11,26,3,662,0.42,78,True,False,7282
+P0139,Beverages,Bangalore,270,26,9,98,10.38,234,False,False,26460
+P0140,Dairy,Bangalore,200,27,6,996,7.41,162,False,False,199200
+P0141,Personal Care,Hyderabad,351,27,8,390,13.0,216,False,False,136890
+P0142,Beverages,Mumbai,438,23,9,35,19.04,207,False,False,15330
+P0143,Beverages,Hyderabad,482,25,2,666,19.28,50,False,False,321012
+P0144,Dairy,Hyderabad,305,31,5,566,9.84,155,False,False,172630
+P0145,Personal Care,Mumbai,181,40,2,648,4.53,80,False,False,117288
+P0146,Personal Care,Mumbai,222,30,3,756,7.4,90,False,False,167832
+P0147,Groceries,Bangalore,88,34,5,486,2.59,170,True,False,42768
+P0148,Beverages,Hyderabad,468,43,9,831,10.88,387,False,False,388908
+P0149,Personal Care,Bangalore,424,50,9,383,8.48,450,True,False,162392
+P0150,Groceries,Hyderabad,427,9,4,554,47.44,36,False,False,236558
+P0151,Personal Care,Mumbai,164,37,4,175,4.43,148,False,False,28700
+P0152,Beverages,Bangalore,161,15,6,628,10.73,90,False,False,101108
+P0153,Personal Care,Mumbai,429,14,10,276,30.64,140,False,False,118404
+P0154,Beverages,Hyderabad,272,41,10,703,6.63,410,True,False,191216
+P0155,Dairy,Mumbai,353,8,3,805,44.12,24,False,False,284165
+P0156,Snacks,Bangalore,245,44,2,862,5.57,88,False,False,211190
+P0157,Groceries,Delhi,221,40,8,931,5.52,320,True,False,205751
+P0158,Dairy,Hyderabad,316,50,4,139,6.32,200,False,False,43924
+P0159,Dairy,Mumbai,407,35,2,155,11.63,70,False,False,63085
+P0160,Snacks,Mumbai,167,45,1,928,3.71,45,False,False,154976
+P0161,Personal Care,Bangalore,405,10,5,393,40.5,50,False,False,159165
+P0162,Snacks,Mumbai,122,45,4,45,2.71,180,True,False,5490
+P0163,Dairy,Hyderabad,201,12,6,301,16.75,72,False,False,60501
+P0164,Dairy,Bangalore,457,19,3,840,24.05,57,False,False,383880
+P0165,Dairy,Bangalore,478,10,8,368,47.8,80,False,False,175904
+P0166,Personal Care,Delhi,462,23,7,95,20.09,161,False,False,43890
+P0167,Beverages,Delhi,158,39,5,728,4.05,195,True,False,115024
+P0168,Groceries,Mumbai,422,17,2,210,24.82,34,False,False,88620
+P0169,Beverages,Hyderabad,468,42,6,366,11.14,252,False,False,171288
+P0170,Groceries,Hyderabad,490,32,7,23,15.31,224,False,False,11270
+P0171,Groceries,Bangalore,10,33,4,610,0.3,132,True,False,6100
+P0172,Groceries,Bangalore,373,48,3,456,7.77,144,False,False,170088
+P0173,Snacks,Mumbai,499,24,6,870,20.79,144,False,False,434130
+P0174,Snacks,Delhi,383,20,4,348,19.15,80,False,False,133284
+P0175,Snacks,Delhi,116,50,5,220,2.32,250,True,False,25520
+P0176,Dairy,Mumbai,382,30,4,182,12.73,120,False,False,69524
+P0177,Snacks,Mumbai,52,33,4,216,1.58,132,True,False,11232
+P0178,Groceries,Delhi,240,18,8,462,13.33,144,False,False,110880
+P0179,Personal Care,Mumbai,313,14,5,105,22.36,70,False,False,32865
+P0180,Dairy,Delhi,228,12,5,414,19.0,60,False,False,94392
+P0181,Personal Care,Bangalore,350,15,7,858,23.33,105,False,False,300300
+P0182,Groceries,Hyderabad,120,13,4,773,9.23,52,False,False,92760
+P0183,Dairy,Bangalore,303,39,2,645,7.77,78,False,False,195435
+P0184,Snacks,Mumbai,323,7,9,896,46.14,63,False,False,289408
+P0185,Dairy,Mumbai,317,33,1,785,9.61,33,False,False,248845
+P0186,Dairy,Mumbai,144,48,6,660,3.0,288,True,False,95040
+P0187,Groceries,Delhi,152,40,3,866,3.8,120,False,False,131632
+P0188,Beverages,Bangalore,129,23,3,142,5.61,69,False,False,18318
+P0189,Beverages,Bangalore,231,7,1,822,33.0,7,False,False,189882
+P0190,Beverages,Delhi,293,43,10,309,6.81,430,True,False,90537
+P0191,Snacks,Mumbai,181,5,5,739,36.2,25,False,False,133759
+P0192,Snacks,Mumbai,205,36,4,915,5.69,144,False,False,187575
+P0193,Snacks,Delhi,143,35,8,506,4.09,280,True,False,72358
+P0194,Beverages,Bangalore,109,13,1,107,8.38,13,False,False,11663
+P0195,Personal Care,Bangalore,329,39,6,383,8.44,234,False,False,126007
+P0196,Groceries,Bangalore,408,13,5,419,31.38,65,False,False,170952
+P0197,Beverages,Bangalore,145,15,6,938,9.67,90,False,False,136010
+P0198,Groceries,Hyderabad,431,42,2,944,10.26,84,False,False,406864
+P0199,Beverages,Hyderabad,286,50,10,577,5.72,500,True,False,165022
+P0200,Personal Care,Bangalore,84,17,3,952,4.94,51,False,False,79968
+P0201,Beverages,Hyderabad,183,47,7,448,3.89,329,True,False,81984
+P0202,Personal Care,Mumbai,3,47,8,423,0.06,376,True,False,1269
+P0203,Dairy,Hyderabad,19,40,4,840,0.48,160,True,False,15960
+P0204,Snacks,Hyderabad,168,11,2,674,15.27,22,False,False,113232
+P0205,Dairy,Bangalore,227,18,3,532,12.61,54,False,False,120764
+P0206,Beverages,Hyderabad,399,36,9,468,11.08,324,False,False,186732
+P0207,Snacks,Bangalore,67,50,10,712,1.34,500,True,False,47704
+P0208,Personal Care,Bangalore,420,42,10,759,10.0,420,True,False,318780
+P0209,Beverages,Mumbai,117,24,3,501,4.88,72,False,False,58617
+P0210,Snacks,Hyderabad,69,15,7,50,4.6,105,True,False,3450
+P0211,Beverages,Bangalore,350,49,2,119,7.14,98,False,False,41650
+P0212,Snacks,Hyderabad,387,17,8,161,22.76,136,False,False,62307
+P0213,Snacks,Mumbai,303,20,5,473,15.15,100,False,False,143319
+P0214,Dairy,Hyderabad,57,49,8,622,1.16,392,True,False,35454
+P0215,Snacks,Delhi,57,30,7,808,1.9,210,True,False,46056
+P0216,Beverages,Delhi,195,17,10,248,11.47,170,False,False,48360
+P0217,Groceries,Bangalore,225,5,5,791,45.0,25,False,False,177975
+P0218,Groceries,Bangalore,500,24,4,673,20.83,96,False,False,336500
+P0219,Dairy,Hyderabad,143,50,6,70,2.86,300,True,False,10010
+P0220,Personal Care,Mumbai,96,24,2,364,4.0,48,False,False,34944
+P0221,Groceries,Bangalore,473,37,2,316,12.78,74,False,False,149468
+P0222,Dairy,Bangalore,77,16,6,889,4.81,96,True,False,68453
+P0223,Snacks,Hyderabad,13,40,9,923,0.32,360,True,False,11999
+P0224,Beverages,Bangalore,211,40,6,823,5.28,240,True,False,173653
+P0225,Snacks,Mumbai,200,32,8,537,6.25,256,True,False,107400
+P0226,Beverages,Hyderabad,310,40,2,503,7.75,80,False,False,155930
+P0227,Personal Care,Delhi,439,31,5,325,14.16,155,False,False,142675
+P0228,Dairy,Hyderabad,467,22,7,778,21.23,154,False,False,363326
+P0229,Dairy,Delhi,145,38,4,104,3.82,152,True,False,15080
+P0230,Groceries,Mumbai,491,43,1,285,11.42,43,False,False,139935
+P0231,Dairy,Hyderabad,316,43,1,152,7.35,43,False,False,48032
+P0232,Personal Care,Bangalore,34,14,10,504,2.43,140,True,False,17136
+P0233,Groceries,Hyderabad,470,36,7,314,13.06,252,False,False,147580
+P0234,Snacks,Bangalore,69,5,3,213,13.8,15,False,False,14697
+P0235,Dairy,Bangalore,294,31,3,389,9.48,93,False,False,114366
+P0236,Snacks,Mumbai,396,31,1,864,12.77,31,False,False,342144
+P0237,Snacks,Delhi,124,21,10,567,5.9,210,True,False,70308
+P0238,Dairy,Delhi,135,50,2,827,2.7,100,False,False,111645
+P0239,Beverages,Mumbai,238,45,8,916,5.29,360,True,False,218008
+P0240,Snacks,Delhi,443,6,3,905,73.83,18,False,False,400915
+P0241,Groceries,Bangalore,112,14,4,364,8.0,56,False,False,40768
+P0242,Dairy,Hyderabad,332,14,3,880,23.71,42,False,False,292160
+P0243,Groceries,Hyderabad,226,46,9,912,4.91,414,True,False,206112
+P0244,Snacks,Mumbai,56,28,1,961,2.0,28,False,False,53816
+P0245,Snacks,Hyderabad,356,38,4,364,9.37,152,False,False,129584
+P0246,Groceries,Hyderabad,417,42,3,243,9.93,126,False,False,101331
+P0247,Snacks,Hyderabad,288,40,3,593,7.2,120,False,False,170784
+P0248,Dairy,Mumbai,88,9,2,934,9.78,18,False,False,82192
+P0249,Snacks,Mumbai,78,11,10,903,7.09,110,True,False,70434
+P0250,Groceries,Hyderabad,212,23,4,580,9.22,92,False,False,122960
+P0251,Groceries,Delhi,253,20,5,166,12.65,100,False,False,41998
+P0252,Dairy,Mumbai,276,39,4,434,7.08,156,False,False,119784
+P0253,Groceries,Delhi,122,12,10,720,10.17,120,False,False,87840
+P0254,Beverages,Hyderabad,250,22,4,569,11.36,88,False,False,142250
+P0255,Snacks,Bangalore,147,15,4,358,9.8,60,False,False,52626
+P0256,Groceries,Delhi,343,13,4,356,26.38,52,False,False,122108
+P0257,Snacks,Delhi,399,12,4,78,33.25,48,False,False,31122
+P0258,Groceries,Bangalore,326,13,1,303,25.08,13,False,False,98778
+P0259,Groceries,Bangalore,0,30,7,676,0.0,210,True,True,0
+P0260,Dairy,Hyderabad,497,23,1,256,21.61,23,False,False,127232
+P0261,Snacks,Mumbai,11,25,3,994,0.44,75,True,False,10934
+P0262,Groceries,Hyderabad,500,27,3,100,18.52,81,False,False,50000
+P0263,Beverages,Mumbai,15,39,3,597,0.38,117,True,False,8955
+P0264,Personal Care,Hyderabad,258,44,8,507,5.86,352,True,False,130806
+P0265,Personal Care,Delhi,53,29,6,837,1.83,174,True,False,44361
+P0266,Dairy,Delhi,47,34,10,890,1.38,340,True,False,41830
+P0267,Dairy,Delhi,342,38,4,553,9.0,152,False,False,189126
+P0268,Beverages,Mumbai,364,36,10,638,10.11,360,False,False,232232
+P0269,Snacks,Hyderabad,59,11,1,705,5.36,11,False,False,41595
+P0270,Dairy,Delhi,489,50,6,531,9.78,300,False,False,259659
+P0271,Beverages,Mumbai,160,12,8,201,13.33,96,False,False,32160
+P0272,Groceries,Delhi,159,23,6,440,6.91,138,False,False,69960
+P0273,Groceries,Hyderabad,148,35,10,256,4.23,350,True,False,37888
+P0274,Personal Care,Bangalore,231,23,4,475,10.04,92,False,False,109725
+P0275,Dairy,Hyderabad,89,16,1,623,5.56,16,False,False,55447
+P0276,Dairy,Bangalore,212,47,8,225,4.51,376,True,False,47700
+P0277,Dairy,Bangalore,105,8,1,264,13.12,8,False,False,27720
+P0278,Snacks,Hyderabad,25,16,8,827,1.56,128,True,False,20675
+P0279,Groceries,Delhi,184,50,8,390,3.68,400,True,False,71760
+P0280,Groceries,Hyderabad,336,38,9,214,8.84,342,True,False,71904
+P0281,Beverages,Bangalore,382,9,5,719,42.44,45,False,False,274658
+P0282,Dairy,Bangalore,177,39,9,723,4.54,351,True,False,127971
+P0283,Snacks,Mumbai,162,49,2,830,3.31,98,False,False,134460
+P0284,Dairy,Hyderabad,394,9,5,765,43.78,45,False,False,301410
+P0285,Dairy,Mumbai,341,24,2,993,14.21,48,False,False,338613
+P0286,Personal Care,Delhi,416,26,8,583,16.0,208,False,False,242528
+P0287,Groceries,Hyderabad,453,11,8,301,41.18,88,False,False,136353
+P0288,Dairy,Delhi,411,14,9,866,29.36,126,False,False,355926
+P0289,Dairy,Delhi,469,12,8,279,39.08,96,False,False,130851
+P0290,Dairy,Bangalore,208,13,4,305,16.0,52,False,False,63440
+P0291,Personal Care,Delhi,197,23,1,832,8.57,23,False,False,163904
+P0292,Beverages,Hyderabad,161,26,10,884,6.19,260,True,False,142324
+P0293,Personal Care,Mumbai,117,15,5,352,7.8,75,False,False,41184
+P0294,Beverages,Delhi,375,18,1,735,20.83,18,False,False,275625
+P0295,Dairy,Hyderabad,357,13,10,924,27.46,130,False,False,329868
+P0296,Dairy,Bangalore,401,41,10,803,9.78,410,True,False,322003
+P0297,Personal Care,Mumbai,83,14,5,24,5.93,70,False,False,1992
+P0298,Dairy,Bangalore,246,46,8,671,5.35,368,True,False,165066
+P0299,Beverages,Bangalore,111,29,1,186,3.83,29,False,False,20646
+P0300,Groceries,Delhi,447,41,1,850,10.9,41,False,False,379950
+P0301,Beverages,Hyderabad,133,34,3,85,3.91,102,False,False,11305
+P0302,Personal Care,Mumbai,72,17,7,994,4.24,119,True,False,71568
+P0303,Groceries,Bangalore,285,32,2,193,8.91,64,False,False,55005
+P0304,Personal Care,Hyderabad,440,17,1,432,25.88,17,False,False,190080
+P0305,Dairy,Bangalore,458,10,7,249,45.8,70,False,False,114042
+P0306,Groceries,Bangalore,48,16,8,818,3.0,128,True,False,39264
+P0307,Beverages,Mumbai,163,17,8,406,9.59,136,False,False,66178
+P0308,Dairy,Delhi,76,11,8,750,6.91,88,True,False,57000
+P0309,Beverages,Mumbai,154,6,9,85,25.67,54,False,False,13090
+P0310,Groceries,Hyderabad,267,48,7,464,5.56,336,True,False,123888
+P0311,Snacks,Bangalore,140,28,6,913,5.0,168,True,False,127820
+P0312,Snacks,Mumbai,33,23,9,929,1.43,207,True,False,30657
+P0313,Groceries,Hyderabad,255,47,4,224,5.43,188,False,False,57120
+P0314,Beverages,Hyderabad,26,15,1,406,1.73,15,False,False,10556
+P0315,Beverages,Hyderabad,113,23,8,421,4.91,184,True,False,47573
+P0316,Snacks,Mumbai,0,43,3,574,0.0,129,True,True,0
+P0317,Snacks,Bangalore,43,34,10,547,1.26,340,True,False,23521
+P0318,Snacks,Bangalore,218,23,5,123,9.48,115,False,False,26814
+P0319,Personal Care,Mumbai,426,16,9,768,26.62,144,False,False,327168
+P0320,Snacks,Mumbai,388,6,1,241,64.67,6,False,False,93508
+P0321,Beverages,Delhi,49,8,7,328,6.12,56,True,False,16072
+P0322,Groceries,Mumbai,17,12,5,844,1.42,60,True,False,14348
+P0323,Snacks,Bangalore,169,41,5,696,4.12,205,True,False,117624
+P0324,Personal Care,Hyderabad,326,34,3,409,9.59,102,False,False,133334
+P0325,Personal Care,Hyderabad,374,24,10,915,15.58,240,False,False,342210
+P0326,Beverages,Delhi,412,41,4,406,10.05,164,False,False,167272
+P0327,Beverages,Bangalore,171,12,9,574,14.25,108,False,False,98154
+P0328,Groceries,Delhi,84,14,5,261,6.0,70,False,False,21924
+P0329,Groceries,Bangalore,13,23,1,199,0.57,23,True,False,2587
+P0330,Dairy,Mumbai,73,47,9,502,1.55,423,True,False,36646
+P0331,Dairy,Mumbai,32,33,2,572,0.97,66,True,False,18304
+P0332,Beverages,Bangalore,431,44,3,810,9.8,132,False,False,349110
+P0333,Beverages,Mumbai,134,16,9,403,8.38,144,True,False,54002
+P0334,Personal Care,Hyderabad,412,44,9,898,9.36,396,False,False,369976
+P0335,Dairy,Bangalore,277,8,10,615,34.62,80,False,False,170355
+P0336,Personal Care,Hyderabad,270,15,5,88,18.0,75,False,False,23760
+P0337,Personal Care,Bangalore,227,29,8,745,7.83,232,True,False,169115
+P0338,Beverages,Mumbai,410,7,4,583,58.57,28,False,False,239030
+P0339,Beverages,Hyderabad,21,44,8,401,0.48,352,True,False,8421
+P0340,Personal Care,Mumbai,46,44,6,478,1.05,264,True,False,21988
+P0341,Snacks,Bangalore,212,29,1,316,7.31,29,False,False,66992
+P0342,Beverages,Delhi,197,19,5,622,10.37,95,False,False,122534
+P0343,Snacks,Delhi,273,9,5,576,30.33,45,False,False,157248
+P0344,Dairy,Bangalore,369,33,3,458,11.18,99,False,False,169002
+P0345,Personal Care,Delhi,294,29,4,299,10.14,116,False,False,87906
+P0346,Beverages,Hyderabad,128,39,6,411,3.28,234,True,False,52608
+P0347,Personal Care,Hyderabad,163,32,1,508,5.09,32,False,False,82804
+P0348,Personal Care,Bangalore,376,10,2,482,37.6,20,False,False,181232
+P0349,Groceries,Bangalore,100,10,8,323,10.0,80,False,False,32300
+P0350,Groceries,Bangalore,252,40,4,590,6.3,160,False,False,148680
+P0351,Dairy,Delhi,269,12,7,242,22.42,84,False,False,65098
+P0352,Groceries,Mumbai,375,48,6,511,7.81,288,False,False,191625
+P0353,Beverages,Mumbai,357,9,6,139,39.67,54,False,False,49623
+P0354,Dairy,Hyderabad,232,38,5,483,6.11,190,False,False,112056
+P0355,Personal Care,Delhi,154,49,5,789,3.14,245,True,False,121506
+P0356,Personal Care,Mumbai,184,25,9,822,7.36,225,True,False,151248
+P0357,Groceries,Mumbai,206,7,10,701,29.43,70,False,False,144406
+P0358,Personal Care,Delhi,109,45,3,751,2.42,135,True,False,81859
+P0359,Groceries,Delhi,313,13,7,84,24.08,91,False,False,26292
+P0360,Snacks,Mumbai,104,29,10,354,3.59,290,True,False,36816
+P0361,Personal Care,Delhi,324,50,1,661,6.48,50,False,False,214164
+P0362,Personal Care,Delhi,376,39,8,805,9.64,312,False,False,302680
+P0363,Beverages,Mumbai,481,7,5,591,68.71,35,False,False,284271
+P0364,Personal Care,Delhi,59,42,10,857,1.4,420,True,False,50563
+P0365,Groceries,Bangalore,380,12,6,287,31.67,72,False,False,109060
+P0366,Dairy,Delhi,43,39,9,170,1.1,351,True,False,7310
+P0367,Dairy,Mumbai,168,33,2,104,5.09,66,False,False,17472
+P0368,Beverages,Mumbai,88,18,2,591,4.89,36,False,False,52008
+P0369,Groceries,Hyderabad,81,24,10,672,3.38,240,True,False,54432
+P0370,Snacks,Bangalore,87,10,6,299,8.7,60,False,False,26013
+P0371,Beverages,Hyderabad,22,50,6,788,0.44,300,True,False,17336
+P0372,Snacks,Mumbai,412,15,2,745,27.47,30,False,False,306940
+P0373,Dairy,Mumbai,30,19,3,373,1.58,57,True,False,11190
+P0374,Beverages,Mumbai,199,28,9,254,7.11,252,True,False,50546
+P0375,Personal Care,Hyderabad,350,35,4,748,10.0,140,False,False,261800
+P0376,Groceries,Hyderabad,496,28,6,678,17.71,168,False,False,336288
+P0377,Snacks,Hyderabad,427,28,4,187,15.25,112,False,False,79849
+P0378,Snacks,Hyderabad,68,31,3,270,2.19,93,True,False,18360
+P0379,Beverages,Bangalore,494,44,2,496,11.23,88,False,False,245024
+P0380,Beverages,Bangalore,327,23,10,521,14.22,230,False,False,170367
+P0381,Groceries,Hyderabad,89,43,10,182,2.07,430,True,False,16198
+P0382,Personal Care,Mumbai,224,41,2,950,5.46,82,False,False,212800
+P0383,Personal Care,Mumbai,459,49,4,401,9.37,196,False,False,184059
+P0384,Beverages,Hyderabad,196,47,6,394,4.17,282,True,False,77224
+P0385,Groceries,Mumbai,92,41,4,79,2.24,164,True,False,7268
+P0386,Groceries,Delhi,438,16,8,879,27.38,128,False,False,385002
+P0387,Groceries,Bangalore,477,40,3,250,11.92,120,False,False,119250
+P0388,Personal Care,Mumbai,488,38,1,988,12.84,38,False,False,482144
+P0389,Personal Care,Hyderabad,478,18,4,506,26.56,72,False,False,241868
+P0390,Groceries,Hyderabad,437,36,6,878,12.14,216,False,False,383686
+P0391,Snacks,Mumbai,227,16,2,195,14.19,32,False,False,44265
+P0392,Groceries,Bangalore,96,29,9,182,3.31,261,True,False,17472
+P0393,Beverages,Hyderabad,309,41,1,805,7.54,41,False,False,248745
+P0394,Dairy,Bangalore,110,13,1,824,8.46,13,False,False,90640
+P0395,Snacks,Delhi,237,20,6,552,11.85,120,False,False,130824
+P0396,Personal Care,Bangalore,328,41,6,51,8.0,246,False,False,16728
+P0397,Groceries,Bangalore,474,25,3,945,18.96,75,False,False,447930
+P0398,Groceries,Bangalore,144,49,3,405,2.94,147,True,False,58320
+P0399,Beverages,Delhi,126,5,1,938,25.2,5,False,False,118188
+P0400,Beverages,Mumbai,368,38,7,874,9.68,266,False,False,321632
+P0401,Personal Care,Hyderabad,3,42,4,855,0.07,168,True,False,2565
+P0402,Snacks,Delhi,283,47,2,695,6.02,94,False,False,196685
+P0403,Beverages,Mumbai,373,12,4,680,31.08,48,False,False,253640
+P0404,Personal Care,Mumbai,276,50,10,542,5.52,500,True,False,149592
+P0405,Dairy,Delhi,192,23,3,44,8.35,69,False,False,8448
+P0406,Dairy,Delhi,415,21,9,400,19.76,189,False,False,166000
+P0407,Dairy,Mumbai,185,21,3,736,8.81,63,False,False,136160
+P0408,Groceries,Hyderabad,355,34,2,816,10.44,68,False,False,289680
+P0409,Personal Care,Delhi,232,35,3,568,6.63,105,False,False,131776
+P0410,Groceries,Mumbai,13,26,4,716,0.5,104,True,False,9308
+P0411,Groceries,Delhi,265,8,2,41,33.12,16,False,False,10865
+P0412,Beverages,Bangalore,24,50,6,479,0.48,300,True,False,11496
+P0413,Beverages,Mumbai,466,15,4,518,31.07,60,False,False,241388
+P0414,Groceries,Hyderabad,301,9,8,895,33.44,72,False,False,269395
+P0415,Groceries,Bangalore,186,32,5,325,5.81,160,False,False,60450
+P0416,Snacks,Hyderabad,243,23,5,245,10.57,115,False,False,59535
+P0417,Personal Care,Bangalore,310,33,5,365,9.39,165,False,False,113150
+P0418,Groceries,Mumbai,130,45,2,187,2.89,90,False,False,24310
+P0419,Beverages,Hyderabad,144,9,8,567,16.0,72,False,False,81648
+P0420,Dairy,Mumbai,209,18,2,650,11.61,36,False,False,135850
+P0421,Personal Care,Hyderabad,129,28,8,805,4.61,224,True,False,103845
+P0422,Snacks,Hyderabad,379,41,10,973,9.24,410,True,False,368767
+P0423,Snacks,Bangalore,52,32,8,92,1.62,256,True,False,4784
+P0424,Dairy,Bangalore,414,22,5,262,18.82,110,False,False,108468
+P0425,Dairy,Mumbai,174,33,4,314,5.27,132,False,False,54636
+P0426,Groceries,Hyderabad,281,50,9,264,5.62,450,True,False,74184
+P0427,Personal Care,Bangalore,79,27,3,831,2.93,81,True,False,65649
+P0428,Personal Care,Hyderabad,193,45,5,156,4.29,225,True,False,30108
+P0429,Groceries,Mumbai,378,40,8,49,9.45,320,False,False,18522
+P0430,Snacks,Hyderabad,135,18,10,864,7.5,180,True,False,116640
+P0431,Groceries,Mumbai,66,16,10,963,4.12,160,True,False,63558
+P0432,Snacks,Delhi,261,40,1,242,6.52,40,False,False,63162
+P0433,Personal Care,Delhi,81,14,9,346,5.79,126,True,False,28026
+P0434,Groceries,Bangalore,157,20,2,513,7.85,40,False,False,80541
+P0435,Dairy,Mumbai,225,15,6,535,15.0,90,False,False,120375
+P0436,Groceries,Delhi,282,32,10,992,8.81,320,True,False,279744
+P0437,Dairy,Mumbai,320,18,7,416,17.78,126,False,False,133120
+P0438,Personal Care,Bangalore,339,35,10,31,9.69,350,True,False,10509
+P0439,Groceries,Mumbai,422,48,4,434,8.79,192,False,False,183148
+P0440,Beverages,Hyderabad,33,43,4,565,0.77,172,True,False,18645
+P0441,Personal Care,Hyderabad,181,48,4,527,3.77,192,True,False,95387
+P0442,Beverages,Bangalore,0,6,4,522,0.0,24,True,True,0
+P0443,Groceries,Hyderabad,4,25,7,925,0.16,175,True,False,3700
+P0444,Dairy,Mumbai,106,15,5,812,7.07,75,False,False,86072
+P0445,Dairy,Delhi,299,47,8,266,6.36,376,True,False,79534
+P0446,Snacks,Delhi,448,37,5,368,12.11,185,False,False,164864
+P0447,Beverages,Hyderabad,387,19,4,674,20.37,76,False,False,260838
+P0448,Personal Care,Hyderabad,323,30,2,422,10.77,60,False,False,136306
+P0449,Dairy,Bangalore,389,32,6,440,12.16,192,False,False,171160
+P0450,Beverages,Delhi,86,27,9,184,3.19,243,True,False,15824
+P0451,Personal Care,Mumbai,420,26,9,269,16.15,234,False,False,112980
+P0452,Personal Care,Delhi,446,7,3,746,63.71,21,False,False,332716
+P0453,Dairy,Delhi,47,25,5,846,1.88,125,True,False,39762
+P0454,Groceries,Delhi,235,21,8,789,11.19,168,False,False,185415
+P0455,Dairy,Bangalore,415,42,7,321,9.88,294,False,False,133215
+P0456,Dairy,Delhi,238,44,1,154,5.41,44,False,False,36652
+P0457,Groceries,Hyderabad,421,39,6,176,10.79,234,False,False,74096
+P0458,Snacks,Mumbai,468,6,1,405,78.0,6,False,False,189540
+P0459,Personal Care,Mumbai,237,43,2,527,5.51,86,False,False,124899
+P0460,Groceries,Bangalore,29,23,7,895,1.26,161,True,False,25955
+P0461,Snacks,Hyderabad,170,24,2,901,7.08,48,False,False,153170
+P0462,Groceries,Mumbai,107,48,4,22,2.23,192,True,False,2354
+P0463,Snacks,Delhi,237,44,6,714,5.39,264,True,False,169218
+P0464,Dairy,Delhi,293,7,7,313,41.86,49,False,False,91709
+P0465,Groceries,Hyderabad,232,21,5,214,11.05,105,False,False,49648
+P0466,Personal Care,Delhi,97,39,1,564,2.49,39,False,False,54708
+P0467,Groceries,Bangalore,150,29,8,53,5.17,232,True,False,7950
+P0468,Dairy,Mumbai,340,16,10,347,21.25,160,False,False,117980
+P0469,Groceries,Hyderabad,13,29,9,561,0.45,261,True,False,7293
+P0470,Personal Care,Delhi,107,44,8,286,2.43,352,True,False,30602
+P0471,Snacks,Hyderabad,447,15,5,602,29.8,75,False,False,269094
+P0472,Personal Care,Bangalore,49,39,9,471,1.26,351,True,False,23079
+P0473,Dairy,Mumbai,207,38,5,804,5.45,190,False,False,166428
+P0474,Dairy,Delhi,103,45,2,198,2.29,90,False,False,20394
+P0475,Snacks,Hyderabad,52,18,9,76,2.89,162,True,False,3952
+P0476,Snacks,Mumbai,211,14,4,539,15.07,56,False,False,113729
+P0477,Personal Care,Mumbai,261,30,10,272,8.7,300,True,False,70992
+P0478,Groceries,Mumbai,88,29,4,713,3.03,116,True,False,62744
+P0479,Snacks,Delhi,38,23,9,111,1.65,207,True,False,4218
+P0480,Groceries,Mumbai,67,40,6,584,1.68,240,True,False,39128
+P0481,Beverages,Delhi,326,41,5,991,7.95,205,False,False,323066
+P0482,Personal Care,Delhi,431,16,3,111,26.94,48,False,False,47841
+P0483,Beverages,Mumbai,90,41,9,316,2.2,369,True,False,28440
+P0484,Snacks,Delhi,160,15,1,848,10.67,15,False,False,135680
+P0485,Dairy,Mumbai,172,23,5,543,7.48,115,False,False,93396
+P0486,Beverages,Hyderabad,180,6,4,191,30.0,24,False,False,34380
+P0487,Beverages,Delhi,122,20,6,229,6.1,120,False,False,27938
+P0488,Dairy,Delhi,27,49,3,770,0.55,147,True,False,20790
+P0489,Snacks,Delhi,263,25,7,864,10.52,175,False,False,227232
+P0490,Snacks,Bangalore,179,37,4,373,4.84,148,False,False,66767
+P0491,Personal Care,Mumbai,171,9,2,484,19.0,18,False,False,82764
+P0492,Personal Care,Mumbai,132,34,2,787,3.88,68,False,False,103884
+P0493,Snacks,Delhi,465,22,7,193,21.14,154,False,False,89745
+P0494,Snacks,Mumbai,305,39,3,222,7.82,117,False,False,67710
+P0495,Beverages,Mumbai,209,47,4,779,4.45,188,False,False,162811
+P0496,Dairy,Mumbai,102,29,7,203,3.52,203,True,False,20706
+P0497,Groceries,Bangalore,401,9,4,776,44.56,36,False,False,311176
+P0498,Beverages,Hyderabad,445,26,4,507,17.12,104,False,False,225615
+P0499,Personal Care,Mumbai,16,10,3,991,1.6,30,True,False,15856
+P0500,Dairy,Hyderabad,465,25,4,52,18.6,100,False,False,24180
+P0501,Groceries,Bangalore,350,7,7,947,50.0,49,False,False,331450
+P0502,Snacks,Mumbai,50,34,6,241,1.47,204,True,False,12050
+P0503,Personal Care,Delhi,377,19,10,54,19.84,190,False,False,20358
+P0504,Personal Care,Mumbai,53,14,8,730,3.79,112,True,False,38690
+P0505,Beverages,Bangalore,25,5,1,542,5.0,5,False,False,13550
+P0506,Dairy,Delhi,57,45,4,841,1.27,180,True,False,47937
+P0507,Dairy,Hyderabad,230,43,3,126,5.35,129,False,False,28980
+P0508,Beverages,Mumbai,310,42,6,99,7.38,252,False,False,30690
+P0509,Beverages,Hyderabad,204,7,3,576,29.14,21,False,False,117504
+P0510,Beverages,Bangalore,61,21,10,885,2.9,210,True,False,53985
+P0511,Personal Care,Mumbai,99,49,3,418,2.02,147,True,False,41382
+P0512,Snacks,Delhi,427,31,6,802,13.77,186,False,False,342454
+P0513,Personal Care,Bangalore,482,10,2,908,48.2,20,False,False,437656
+P0514,Personal Care,Mumbai,377,11,10,873,34.27,110,False,False,329121
+P0515,Personal Care,Delhi,51,17,10,519,3.0,170,True,False,26469
+P0516,Groceries,Hyderabad,410,49,8,705,8.37,392,False,False,289050
+P0517,Personal Care,Mumbai,346,12,4,535,28.83,48,False,False,185110
+P0518,Groceries,Delhi,263,46,1,681,5.72,46,False,False,179103
+P0519,Dairy,Mumbai,71,36,8,576,1.97,288,True,False,40896
+P0520,Dairy,Mumbai,499,47,5,535,10.62,235,False,False,266965
+P0521,Beverages,Hyderabad,221,42,10,448,5.26,420,True,False,99008
+P0522,Groceries,Bangalore,22,20,7,660,1.1,140,True,False,14520
+P0523,Groceries,Delhi,105,43,6,756,2.44,258,True,False,79380
+P0524,Personal Care,Delhi,201,12,10,921,16.75,120,False,False,185121
+P0525,Beverages,Bangalore,31,18,9,621,1.72,162,True,False,19251
+P0526,Beverages,Delhi,162,14,5,118,11.57,70,False,False,19116
+P0527,Personal Care,Mumbai,234,11,1,596,21.27,11,False,False,139464
+P0528,Groceries,Delhi,475,9,1,329,52.78,9,False,False,156275
+P0529,Personal Care,Delhi,43,13,5,46,3.31,65,True,False,1978
+P0530,Personal Care,Hyderabad,289,10,6,91,28.9,60,False,False,26299
+P0531,Dairy,Delhi,458,22,1,600,20.82,22,False,False,274800
+P0532,Groceries,Delhi,403,8,2,946,50.38,16,False,False,381238
+P0533,Groceries,Hyderabad,463,7,8,515,66.14,56,False,False,238445
+P0534,Beverages,Delhi,85,50,8,456,1.7,400,True,False,38760
+P0535,Dairy,Hyderabad,401,9,1,106,44.56,9,False,False,42506
+P0536,Groceries,Delhi,490,8,6,682,61.25,48,False,False,334180
+P0537,Dairy,Delhi,163,6,1,74,27.17,6,False,False,12062
+P0538,Groceries,Delhi,249,11,8,845,22.64,88,False,False,210405
+P0539,Dairy,Bangalore,265,29,9,820,9.14,261,False,False,217300
+P0540,Groceries,Bangalore,247,43,9,992,5.74,387,True,False,245024
+P0541,Snacks,Mumbai,145,38,6,298,3.82,228,True,False,43210
+P0542,Groceries,Delhi,486,31,7,178,15.68,217,False,False,86508
+P0543,Groceries,Delhi,479,8,10,313,59.88,80,False,False,149927
+P0544,Groceries,Bangalore,190,40,7,804,4.75,280,True,False,152760
+P0545,Personal Care,Delhi,403,6,5,234,67.17,30,False,False,94302
+P0546,Groceries,Bangalore,199,34,8,890,5.85,272,True,False,177110
+P0547,Dairy,Bangalore,398,23,6,171,17.3,138,False,False,68058
+P0548,Dairy,Hyderabad,292,45,9,67,6.49,405,True,False,19564
+P0549,Dairy,Mumbai,235,19,6,235,12.37,114,False,False,55225
+P0550,Snacks,Delhi,64,34,9,759,1.88,306,True,False,48576
+P0551,Personal Care,Mumbai,327,25,1,610,13.08,25,False,False,199470
+P0552,Beverages,Hyderabad,160,29,1,367,5.52,29,False,False,58720
+P0553,Personal Care,Bangalore,108,48,1,663,2.25,48,False,False,71604
+P0554,Beverages,Bangalore,96,37,6,656,2.59,222,True,False,62976
+P0555,Personal Care,Mumbai,491,24,8,564,20.46,192,False,False,276924
+P0556,Dairy,Delhi,51,25,3,524,2.04,75,True,False,26724
+P0557,Snacks,Hyderabad,400,37,2,119,10.81,74,False,False,47600
+P0558,Personal Care,Hyderabad,433,20,9,274,21.65,180,False,False,118642
+P0559,Snacks,Hyderabad,15,12,8,537,1.25,96,True,False,8055
+P0560,Personal Care,Hyderabad,295,26,7,152,11.35,182,False,False,44840
+P0561,Dairy,Mumbai,289,8,5,486,36.12,40,False,False,140454
+P0562,Groceries,Mumbai,179,12,5,134,14.92,60,False,False,23986
+P0563,Dairy,Delhi,334,24,1,792,13.92,24,False,False,264528
+P0564,Groceries,Hyderabad,204,41,2,121,4.98,82,False,False,24684
+P0565,Personal Care,Bangalore,220,40,9,110,5.5,360,True,False,24200
+P0566,Beverages,Mumbai,216,16,4,645,13.5,64,False,False,139320
+P0567,Beverages,Hyderabad,401,24,8,236,16.71,192,False,False,94636
+P0568,Beverages,Bangalore,317,12,8,364,26.42,96,False,False,115388
+P0569,Snacks,Hyderabad,189,39,4,328,4.85,156,False,False,61992
+P0570,Dairy,Hyderabad,464,16,3,232,29.0,48,False,False,107648
+P0571,Personal Care,Delhi,401,41,7,767,9.78,287,False,False,307567
+P0572,Dairy,Mumbai,467,43,1,698,10.86,43,False,False,325966
+P0573,Beverages,Bangalore,365,36,5,254,10.14,180,False,False,92710
+P0574,Groceries,Hyderabad,196,20,9,693,9.8,180,False,False,135828
+P0575,Groceries,Delhi,387,48,8,719,8.06,384,False,False,278253
+P0576,Beverages,Mumbai,164,36,8,548,4.56,288,True,False,89872
+P0577,Personal Care,Bangalore,135,34,1,587,3.97,34,False,False,79245
+P0578,Dairy,Hyderabad,225,44,2,937,5.11,88,False,False,210825
+P0579,Personal Care,Delhi,485,45,3,465,10.78,135,False,False,225525
+P0580,Groceries,Bangalore,284,8,3,398,35.5,24,False,False,113032
+P0581,Groceries,Mumbai,192,45,2,548,4.27,90,False,False,105216
+P0582,Personal Care,Delhi,231,40,10,839,5.78,400,True,False,193809
+P0583,Groceries,Bangalore,145,14,2,716,10.36,28,False,False,103820
+P0584,Groceries,Mumbai,330,19,8,93,17.37,152,False,False,30690
+P0585,Dairy,Bangalore,175,39,6,470,4.49,234,True,False,82250
+P0586,Personal Care,Mumbai,277,14,7,745,19.79,98,False,False,206365
+P0587,Snacks,Hyderabad,185,25,3,239,7.4,75,False,False,44215
+P0588,Groceries,Delhi,160,36,4,989,4.44,144,False,False,158240
+P0589,Personal Care,Hyderabad,486,34,7,812,14.29,238,False,False,394632
+P0590,Personal Care,Delhi,173,46,3,850,3.76,138,False,False,147050
+P0591,Personal Care,Bangalore,35,10,7,100,3.5,70,True,False,3500
+P0592,Personal Care,Mumbai,189,18,1,588,10.5,18,False,False,111132
+P0593,Beverages,Mumbai,266,50,1,537,5.32,50,False,False,142842
+P0594,Personal Care,Delhi,47,31,8,634,1.52,248,True,False,29798
+P0595,Beverages,Bangalore,153,16,7,854,9.56,112,False,False,130662
+P0596,Personal Care,Delhi,83,18,1,366,4.61,18,False,False,30378
+P0597,Dairy,Bangalore,250,20,9,543,12.5,180,False,False,135750
+P0598,Snacks,Bangalore,362,30,1,686,12.07,30,False,False,248332
+P0599,Snacks,Hyderabad,485,18,10,758,26.94,180,False,False,367630
+P0600,Snacks,Bangalore,194,33,8,775,5.88,264,True,False,150350
+P0601,Snacks,Mumbai,432,25,10,350,17.28,250,False,False,151200
+P0602,Snacks,Bangalore,107,33,10,999,3.24,330,True,False,106893
+P0603,Snacks,Hyderabad,391,12,4,29,32.58,48,False,False,11339
+P0604,Groceries,Mumbai,281,33,8,503,8.52,264,False,False,141343
+P0605,Personal Care,Delhi,379,47,3,617,8.06,141,False,False,233843
+P0606,Dairy,Hyderabad,378,11,5,80,34.36,55,False,False,30240
+P0607,Beverages,Delhi,266,20,3,462,13.3,60,False,False,122892
+P0608,Dairy,Bangalore,128,36,5,604,3.56,180,True,False,77312
+P0609,Personal Care,Delhi,263,33,9,616,7.97,297,True,False,162008
+P0610,Personal Care,Delhi,414,36,5,136,11.5,180,False,False,56304
+P0611,Personal Care,Hyderabad,486,30,1,292,16.2,30,False,False,141912
+P0612,Dairy,Delhi,464,36,4,260,12.89,144,False,False,120640
+P0613,Snacks,Bangalore,90,33,8,647,2.73,264,True,False,58230
+P0614,Beverages,Bangalore,299,8,6,342,37.38,48,False,False,102258
+P0615,Snacks,Delhi,52,39,6,580,1.33,234,True,False,30160
+P0616,Snacks,Delhi,335,25,5,737,13.4,125,False,False,246895
+P0617,Beverages,Hyderabad,497,7,3,802,71.0,21,False,False,398594
+P0618,Beverages,Bangalore,26,23,6,200,1.13,138,True,False,5200
+P0619,Groceries,Delhi,328,25,7,906,13.12,175,False,False,297168
+P0620,Groceries,Hyderabad,473,8,9,182,59.12,72,False,False,86086
+P0621,Dairy,Mumbai,424,50,7,41,8.48,350,False,False,17384
+P0622,Dairy,Delhi,196,15,10,64,13.07,150,False,False,12544
+P0623,Groceries,Hyderabad,52,20,9,217,2.6,180,True,False,11284
+P0624,Dairy,Delhi,462,25,1,876,18.48,25,False,False,404712
+P0625,Snacks,Bangalore,461,43,4,223,10.72,172,False,False,102803
+P0626,Beverages,Hyderabad,290,39,4,700,7.44,156,False,False,203000
+P0627,Beverages,Bangalore,490,40,1,430,12.25,40,False,False,210700
+P0628,Beverages,Bangalore,2,15,2,59,0.13,30,True,False,118
+P0629,Dairy,Mumbai,308,43,8,455,7.16,344,True,False,140140
+P0630,Beverages,Delhi,19,43,4,47,0.44,172,True,False,893
+P0631,Snacks,Bangalore,468,26,2,487,18.0,52,False,False,227916
+P0632,Beverages,Hyderabad,340,30,3,568,11.33,90,False,False,193120
+P0633,Dairy,Delhi,457,6,3,531,76.17,18,False,False,242667
+P0634,Beverages,Hyderabad,281,39,2,297,7.21,78,False,False,83457
+P0635,Groceries,Mumbai,41,49,2,772,0.84,98,True,False,31652
+P0636,Snacks,Bangalore,13,26,8,605,0.5,208,True,False,7865
+P0637,Beverages,Delhi,168,29,9,269,5.79,261,True,False,45192
+P0638,Beverages,Bangalore,372,27,5,446,13.78,135,False,False,165912
+P0639,Snacks,Delhi,75,8,7,126,9.38,56,False,False,9450
+P0640,Personal Care,Mumbai,426,33,10,925,12.91,330,False,False,394050
+P0641,Snacks,Bangalore,119,38,9,758,3.13,342,True,False,90202
+P0642,Personal Care,Delhi,248,47,1,302,5.28,47,False,False,74896
+P0643,Personal Care,Mumbai,101,47,10,682,2.15,470,True,False,68882
+P0644,Dairy,Bangalore,233,27,1,686,8.63,27,False,False,159838
+P0645,Snacks,Delhi,226,49,1,618,4.61,49,False,False,139668
+P0646,Beverages,Mumbai,2,29,5,73,0.07,145,True,False,146
+P0647,Dairy,Mumbai,284,34,8,881,8.35,272,False,False,250204
+P0648,Dairy,Bangalore,394,32,1,957,12.31,32,False,False,377058
+P0649,Personal Care,Hyderabad,469,50,3,975,9.38,150,False,False,457275
+P0650,Personal Care,Hyderabad,165,38,3,982,4.34,114,False,False,162030
+P0651,Dairy,Delhi,441,10,4,931,44.1,40,False,False,410571
+P0652,Snacks,Delhi,440,8,10,745,55.0,80,False,False,327800
+P0653,Beverages,Delhi,495,23,4,75,21.52,92,False,False,37125
+P0654,Personal Care,Bangalore,186,28,3,476,6.64,84,False,False,88536
+P0655,Dairy,Delhi,426,35,2,260,12.17,70,False,False,110760
+P0656,Dairy,Delhi,283,27,2,235,10.48,54,False,False,66505
+P0657,Snacks,Hyderabad,29,28,2,834,1.04,56,True,False,24186
+P0658,Snacks,Hyderabad,135,47,6,817,2.87,282,True,False,110295
+P0659,Groceries,Hyderabad,336,20,5,532,16.8,100,False,False,178752
+P0660,Beverages,Mumbai,80,27,5,742,2.96,135,True,False,59360
+P0661,Groceries,Bangalore,217,30,9,146,7.23,270,True,False,31682
+P0662,Snacks,Bangalore,388,26,6,237,14.92,156,False,False,91956
+P0663,Groceries,Delhi,75,49,2,864,1.53,98,True,False,64800
+P0664,Beverages,Bangalore,248,49,4,462,5.06,196,False,False,114576
+P0665,Dairy,Bangalore,107,28,4,556,3.82,112,True,False,59492
+P0666,Snacks,Mumbai,268,25,9,474,10.72,225,False,False,127032
+P0667,Dairy,Hyderabad,120,32,4,218,3.75,128,True,False,26160
+P0668,Personal Care,Bangalore,483,13,2,830,37.15,26,False,False,400890
+P0669,Personal Care,Bangalore,38,24,8,763,1.58,192,True,False,28994
+P0670,Groceries,Bangalore,482,14,5,690,34.43,70,False,False,332580
+P0671,Personal Care,Hyderabad,396,11,1,366,36.0,11,False,False,144936
+P0672,Snacks,Bangalore,428,9,7,650,47.56,63,False,False,278200
+P0673,Snacks,Mumbai,426,32,3,955,13.31,96,False,False,406830
+P0674,Groceries,Hyderabad,93,5,9,657,18.6,45,False,False,61101
+P0675,Snacks,Bangalore,466,34,9,504,13.71,306,False,False,234864
+P0676,Snacks,Hyderabad,297,24,4,285,12.38,96,False,False,84645
+P0677,Dairy,Delhi,482,21,6,532,22.95,126,False,False,256424
+P0678,Groceries,Mumbai,439,40,6,384,10.98,240,False,False,168576
+P0679,Dairy,Hyderabad,290,29,7,619,10.0,203,False,False,179510
+P0680,Personal Care,Bangalore,187,38,1,64,4.92,38,False,False,11968
+P0681,Snacks,Hyderabad,58,37,4,206,1.57,148,True,False,11948
+P0682,Groceries,Delhi,50,6,2,791,8.33,12,False,False,39550
+P0683,Personal Care,Delhi,195,14,7,393,13.93,98,False,False,76635
+P0684,Personal Care,Hyderabad,406,31,1,444,13.1,31,False,False,180264
+P0685,Groceries,Mumbai,253,49,6,553,5.16,294,True,False,139909
+P0686,Personal Care,Bangalore,241,12,8,449,20.08,96,False,False,108209
+P0687,Dairy,Mumbai,122,9,10,764,13.56,90,False,False,93208
+P0688,Dairy,Mumbai,282,48,3,260,5.88,144,False,False,73320
+P0689,Dairy,Hyderabad,319,49,1,764,6.51,49,False,False,243716
+P0690,Snacks,Delhi,492,12,8,225,41.0,96,False,False,110700
+P0691,Personal Care,Hyderabad,365,23,1,383,15.87,23,False,False,139795
+P0692,Snacks,Hyderabad,304,33,1,596,9.21,33,False,False,181184
+P0693,Personal Care,Bangalore,455,13,10,889,35.0,130,False,False,404495
+P0694,Personal Care,Mumbai,212,20,9,248,10.6,180,False,False,52576
+P0695,Groceries,Delhi,468,23,8,596,20.35,184,False,False,278928
+P0696,Beverages,Bangalore,185,34,9,82,5.44,306,True,False,15170
+P0697,Snacks,Mumbai,64,19,1,93,3.37,19,False,False,5952
+P0698,Dairy,Delhi,209,23,1,772,9.09,23,False,False,161348
+P0699,Groceries,Mumbai,64,18,4,725,3.56,72,True,False,46400
+P0700,Groceries,Hyderabad,59,39,1,389,1.51,39,False,False,22951
+P0701,Dairy,Mumbai,441,12,9,631,36.75,108,False,False,278271
+P0702,Snacks,Delhi,398,15,1,393,26.53,15,False,False,156414
+P0703,Groceries,Bangalore,110,16,6,291,6.88,96,False,False,32010
+P0704,Groceries,Delhi,419,46,9,443,9.11,414,False,False,185617
+P0705,Groceries,Hyderabad,34,48,8,325,0.71,384,True,False,11050
+P0706,Dairy,Hyderabad,142,28,3,819,5.07,84,False,False,116298
+P0707,Groceries,Hyderabad,353,12,5,423,29.42,60,False,False,149319
+P0708,Dairy,Hyderabad,152,39,6,334,3.9,234,True,False,50768
+P0709,Dairy,Delhi,365,27,8,545,13.52,216,False,False,198925
+P0710,Dairy,Delhi,438,44,5,763,9.95,220,False,False,334194
+P0711,Snacks,Mumbai,33,21,3,288,1.57,63,True,False,9504
+P0712,Dairy,Mumbai,12,50,8,941,0.24,400,True,False,11292
+P0713,Snacks,Hyderabad,470,42,9,474,11.19,378,False,False,222780
+P0714,Snacks,Bangalore,260,15,5,668,17.33,75,False,False,173680
+P0715,Personal Care,Bangalore,253,38,1,959,6.66,38,False,False,242627
+P0716,Snacks,Hyderabad,232,18,6,443,12.89,108,False,False,102776
+P0717,Dairy,Bangalore,217,21,9,216,10.33,189,False,False,46872
+P0718,Dairy,Mumbai,345,16,10,753,21.56,160,False,False,259785
+P0719,Beverages,Mumbai,290,36,5,26,8.06,180,False,False,7540
+P0720,Dairy,Bangalore,81,17,2,469,4.76,34,False,False,37989
+P0721,Groceries,Delhi,313,34,6,981,9.21,204,False,False,307053
+P0722,Personal Care,Bangalore,334,31,9,426,10.77,279,False,False,142284
+P0723,Personal Care,Bangalore,56,39,10,691,1.44,390,True,False,38696
+P0724,Groceries,Bangalore,188,50,1,535,3.76,50,False,False,100580
+P0725,Snacks,Bangalore,396,5,3,230,79.2,15,False,False,91080
+P0726,Groceries,Hyderabad,309,50,5,331,6.18,250,False,False,102279
+P0727,Snacks,Hyderabad,68,10,1,533,6.8,10,False,False,36244
+P0728,Groceries,Bangalore,20,29,9,122,0.69,261,True,False,2440
+P0729,Dairy,Mumbai,291,20,2,427,14.55,40,False,False,124257
+P0730,Snacks,Delhi,231,34,7,426,6.79,238,True,False,98406
+P0731,Snacks,Hyderabad,481,38,10,839,12.66,380,False,False,403559
+P0732,Dairy,Hyderabad,261,44,7,141,5.93,308,True,False,36801
+P0733,Personal Care,Bangalore,466,23,8,846,20.26,184,False,False,394236
+P0734,Snacks,Hyderabad,107,47,3,422,2.28,141,True,False,45154
+P0735,Beverages,Hyderabad,224,19,9,658,11.79,171,False,False,147392
+P0736,Snacks,Hyderabad,69,14,5,566,4.93,70,True,False,39054
+P0737,Snacks,Bangalore,287,22,1,314,13.05,22,False,False,90118
+P0738,Beverages,Delhi,94,29,4,933,3.24,116,True,False,87702
+P0739,Snacks,Delhi,246,35,4,240,7.03,140,False,False,59040
+P0740,Personal Care,Delhi,172,43,6,55,4.0,258,True,False,9460
+P0741,Personal Care,Mumbai,93,15,3,755,6.2,45,False,False,70215
+P0742,Snacks,Bangalore,48,18,5,629,2.67,90,True,False,30192
+P0743,Snacks,Mumbai,256,48,5,893,5.33,240,False,False,228608
+P0744,Beverages,Delhi,474,25,4,469,18.96,100,False,False,222306
+P0745,Snacks,Delhi,99,16,7,36,6.19,112,True,False,3564
+P0746,Beverages,Hyderabad,202,50,4,39,4.04,200,False,False,7878
+P0747,Dairy,Hyderabad,112,25,8,445,4.48,200,True,False,49840
+P0748,Beverages,Mumbai,405,50,3,264,8.1,150,False,False,106920
+P0749,Beverages,Hyderabad,207,47,9,924,4.4,423,True,False,191268
+P0750,Groceries,Bangalore,488,46,4,136,10.61,184,False,False,66368
+P0751,Personal Care,Hyderabad,122,31,1,884,3.94,31,False,False,107848
+P0752,Groceries,Hyderabad,40,41,2,232,0.98,82,True,False,9280
+P0753,Groceries,Bangalore,291,49,9,137,5.94,441,True,False,39867
+P0754,Personal Care,Mumbai,326,17,9,289,19.18,153,False,False,94214
+P0755,Dairy,Bangalore,496,6,3,161,82.67,18,False,False,79856
+P0756,Dairy,Mumbai,436,19,7,413,22.95,133,False,False,180068
+P0757,Snacks,Mumbai,442,34,6,344,13.0,204,False,False,152048
+P0758,Beverages,Bangalore,317,30,2,538,10.57,60,False,False,170546
+P0759,Groceries,Bangalore,180,8,5,546,22.5,40,False,False,98280
+P0760,Snacks,Bangalore,214,30,7,20,7.13,210,False,False,4280
+P0761,Groceries,Mumbai,67,13,10,142,5.15,130,True,False,9514
+P0762,Dairy,Mumbai,215,28,9,178,7.68,252,True,False,38270
+P0763,Personal Care,Delhi,182,31,1,211,5.87,31,False,False,38402
+P0764,Personal Care,Bangalore,17,34,3,111,0.5,102,True,False,1887
+P0765,Beverages,Bangalore,102,23,5,328,4.43,115,True,False,33456
+P0766,Snacks,Hyderabad,267,23,2,559,11.61,46,False,False,149253
+P0767,Snacks,Bangalore,185,36,6,323,5.14,216,True,False,59755
+P0768,Dairy,Mumbai,497,39,1,342,12.74,39,False,False,169974
+P0769,Groceries,Delhi,239,42,2,480,5.69,84,False,False,114720
+P0770,Beverages,Delhi,480,20,1,557,24.0,20,False,False,267360
+P0771,Snacks,Mumbai,331,24,3,344,13.79,72,False,False,113864
+P0772,Personal Care,Mumbai,20,20,8,237,1.0,160,True,False,4740
+P0773,Groceries,Mumbai,101,29,2,421,3.48,58,False,False,42521
+P0774,Snacks,Mumbai,353,10,10,43,35.3,100,False,False,15179
+P0775,Personal Care,Hyderabad,273,24,3,503,11.38,72,False,False,137319
+P0776,Personal Care,Delhi,151,13,1,943,11.62,13,False,False,142393
+P0777,Dairy,Mumbai,261,29,4,410,9.0,116,False,False,107010
+P0778,Groceries,Delhi,452,44,8,126,10.27,352,False,False,56952
+P0779,Beverages,Mumbai,194,50,2,713,3.88,100,False,False,138322
+P0780,Personal Care,Bangalore,22,25,1,144,0.88,25,True,False,3168
+P0781,Personal Care,Delhi,155,7,9,209,22.14,63,False,False,32395
+P0782,Snacks,Mumbai,468,15,6,163,31.2,90,False,False,76284
+P0783,Groceries,Delhi,381,9,4,886,42.33,36,False,False,337566
+P0784,Groceries,Hyderabad,419,39,8,982,10.74,312,False,False,411458
+P0785,Dairy,Bangalore,456,50,9,578,9.12,450,False,False,263568
+P0786,Dairy,Delhi,58,30,4,625,1.93,120,True,False,36250
+P0787,Groceries,Delhi,141,13,6,653,10.85,78,False,False,92073
+P0788,Snacks,Delhi,29,5,1,618,5.8,5,False,False,17922
+P0789,Dairy,Mumbai,2,49,4,553,0.04,196,True,False,1106
+P0790,Groceries,Hyderabad,418,19,6,987,22.0,114,False,False,412566
+P0791,Groceries,Bangalore,469,10,2,739,46.9,20,False,False,346591
+P0792,Dairy,Hyderabad,78,13,10,106,6.0,130,True,False,8268
+P0793,Snacks,Mumbai,361,16,10,404,22.56,160,False,False,145844
+P0794,Personal Care,Mumbai,267,35,3,975,7.63,105,False,False,260325
+P0795,Dairy,Mumbai,34,46,4,415,0.74,184,True,False,14110
+P0796,Beverages,Delhi,458,17,2,220,26.94,34,False,False,100760
+P0797,Personal Care,Hyderabad,436,36,6,871,12.11,216,False,False,379756
+P0798,Dairy,Delhi,284,7,2,631,40.57,14,False,False,179204
+P0799,Beverages,Mumbai,354,5,4,571,70.8,20,False,False,202134
+P0800,Dairy,Bangalore,199,7,6,432,28.43,42,False,False,85968
+P0801,Groceries,Delhi,397,47,7,142,8.45,329,False,False,56374
+P0802,Beverages,Mumbai,222,31,6,396,7.16,186,False,False,87912
+P0803,Dairy,Mumbai,495,42,3,449,11.79,126,False,False,222255
+P0804,Personal Care,Mumbai,31,5,8,933,6.2,40,True,False,28923
+P0805,Snacks,Delhi,86,6,7,321,14.33,42,False,False,27606
+P0806,Snacks,Delhi,485,44,8,166,11.02,352,False,False,80510
+P0807,Dairy,Delhi,144,9,5,439,16.0,45,False,False,63216
+P0808,Groceries,Mumbai,155,12,9,998,12.92,108,False,False,154690
+P0809,Beverages,Delhi,396,28,4,493,14.14,112,False,False,195228
+P0810,Personal Care,Hyderabad,94,32,9,391,2.94,288,True,False,36754
+P0811,Groceries,Delhi,257,15,3,674,17.13,45,False,False,173218
+P0812,Personal Care,Bangalore,143,25,3,656,5.72,75,False,False,93808
+P0813,Snacks,Bangalore,99,36,6,313,2.75,216,True,False,30987
+P0814,Beverages,Mumbai,483,25,6,969,19.32,150,False,False,468027
+P0815,Snacks,Hyderabad,100,22,8,601,4.55,176,True,False,60100
+P0816,Personal Care,Delhi,47,8,3,76,5.88,24,False,False,3572
+P0817,Groceries,Delhi,337,25,9,419,13.48,225,False,False,141203
+P0818,Groceries,Mumbai,434,41,4,925,10.59,164,False,False,401450
+P0819,Snacks,Delhi,63,33,6,405,1.91,198,True,False,25515
+P0820,Personal Care,Mumbai,354,46,10,577,7.7,460,True,False,204258
+P0821,Groceries,Mumbai,270,10,6,620,27.0,60,False,False,167400
+P0822,Snacks,Hyderabad,415,5,7,711,83.0,35,False,False,295065
+P0823,Groceries,Mumbai,63,30,10,875,2.1,300,True,False,55125
+P0824,Snacks,Hyderabad,488,13,10,166,37.54,130,False,False,81008
+P0825,Snacks,Hyderabad,310,32,5,526,9.69,160,False,False,163060
+P0826,Groceries,Hyderabad,421,46,5,543,9.15,230,False,False,228603
+P0827,Snacks,Delhi,181,20,2,169,9.05,40,False,False,30589
+P0828,Personal Care,Hyderabad,472,30,6,680,15.73,180,False,False,320960
+P0829,Personal Care,Bangalore,313,36,10,135,8.69,360,True,False,42255
+P0830,Groceries,Hyderabad,63,11,5,467,5.73,55,False,False,29421
+P0831,Beverages,Mumbai,462,46,4,343,10.04,184,False,False,158466
+P0832,Beverages,Hyderabad,398,14,2,172,28.43,28,False,False,68456
+P0833,Dairy,Bangalore,150,42,4,826,3.57,168,True,False,123900
+P0834,Groceries,Delhi,273,35,3,259,7.8,105,False,False,70707
+P0835,Personal Care,Mumbai,194,11,10,270,17.64,110,False,False,52380
+P0836,Snacks,Delhi,272,38,6,858,7.16,228,False,False,233376
+P0837,Personal Care,Hyderabad,483,14,2,880,34.5,28,False,False,425040
+P0838,Groceries,Mumbai,450,32,1,53,14.06,32,False,False,23850
+P0839,Groceries,Delhi,107,49,9,292,2.18,441,True,False,31244
+P0840,Personal Care,Bangalore,486,48,10,715,10.12,480,False,False,347490
+P0841,Beverages,Mumbai,219,45,8,783,4.87,360,True,False,171477
+P0842,Snacks,Delhi,353,27,2,1000,13.07,54,False,False,353000
+P0843,Personal Care,Hyderabad,382,30,1,564,12.73,30,False,False,215448
+P0844,Groceries,Hyderabad,241,18,2,27,13.39,36,False,False,6507
+P0845,Groceries,Bangalore,228,47,8,877,4.85,376,True,False,199956
+P0846,Groceries,Bangalore,228,26,8,177,8.77,208,False,False,40356
+P0847,Groceries,Mumbai,432,40,9,138,10.8,360,False,False,59616
+P0848,Groceries,Bangalore,193,21,1,681,9.19,21,False,False,131433
+P0849,Personal Care,Bangalore,140,39,2,612,3.59,78,False,False,85680
+P0850,Snacks,Delhi,181,15,10,78,12.07,150,False,False,14118
+P0851,Personal Care,Delhi,97,38,10,186,2.55,380,True,False,18042
+P0852,Personal Care,Mumbai,196,7,8,598,28.0,56,False,False,117208
+P0853,Personal Care,Mumbai,57,9,2,270,6.33,18,False,False,15390
+P0854,Beverages,Delhi,44,21,1,691,2.1,21,False,False,30404
+P0855,Beverages,Delhi,362,27,1,423,13.41,27,False,False,153126
+P0856,Personal Care,Hyderabad,38,37,7,596,1.03,259,True,False,22648
+P0857,Beverages,Mumbai,284,21,9,485,13.52,189,False,False,137740
+P0858,Groceries,Bangalore,390,5,7,378,78.0,35,False,False,147420
+P0859,Snacks,Bangalore,362,19,3,355,19.05,57,False,False,128510
+P0860,Personal Care,Bangalore,223,25,8,704,8.92,200,False,False,156992
+P0861,Personal Care,Bangalore,97,30,1,524,3.23,30,False,False,50828
+P0862,Personal Care,Mumbai,466,34,9,603,13.71,306,False,False,280998
+P0863,Groceries,Hyderabad,418,16,9,586,26.12,144,False,False,244948
+P0864,Snacks,Mumbai,306,33,8,223,9.27,264,False,False,68238
+P0865,Personal Care,Hyderabad,43,34,9,915,1.26,306,True,False,39345
+P0866,Snacks,Mumbai,17,40,6,572,0.42,240,True,False,9724
+P0867,Personal Care,Delhi,157,29,5,724,5.41,145,False,False,113668
+P0868,Personal Care,Hyderabad,78,42,4,885,1.86,168,True,False,69030
+P0869,Dairy,Delhi,431,15,10,927,28.73,150,False,False,399537
+P0870,Groceries,Hyderabad,103,37,7,674,2.78,259,True,False,69422
+P0871,Dairy,Delhi,141,7,2,792,20.14,14,False,False,111672
+P0872,Beverages,Delhi,488,9,10,482,54.22,90,False,False,235216
+P0873,Groceries,Bangalore,409,44,1,743,9.3,44,False,False,303887
+P0874,Groceries,Hyderabad,109,26,6,335,4.19,156,True,False,36515
+P0875,Snacks,Mumbai,192,33,2,718,5.82,66,False,False,137856
+P0876,Dairy,Delhi,258,32,7,104,8.06,224,False,False,26832
+P0877,Dairy,Delhi,332,36,5,916,9.22,180,False,False,304112
+P0878,Snacks,Hyderabad,469,16,5,259,29.31,80,False,False,121471
+P0879,Dairy,Bangalore,436,13,7,664,33.54,91,False,False,289504
+P0880,Snacks,Delhi,489,6,8,30,81.5,48,False,False,14670
+P0881,Groceries,Mumbai,20,44,4,172,0.45,176,True,False,3440
+P0882,Personal Care,Mumbai,118,15,10,987,7.87,150,True,False,116466
+P0883,Dairy,Delhi,282,31,5,837,9.1,155,False,False,236034
+P0884,Groceries,Hyderabad,24,25,2,238,0.96,50,True,False,5712
+P0885,Personal Care,Bangalore,178,12,1,148,14.83,12,False,False,26344
+P0886,Snacks,Delhi,76,24,3,819,3.17,72,False,False,62244
+P0887,Groceries,Bangalore,467,8,7,991,58.38,56,False,False,462797
+P0888,Groceries,Mumbai,31,13,6,185,2.38,78,True,False,5735
+P0889,Groceries,Delhi,74,11,4,671,6.73,44,False,False,49654
+P0890,Beverages,Mumbai,97,42,5,298,2.31,210,True,False,28906
+P0891,Groceries,Delhi,74,31,9,750,2.39,279,True,False,55500
+P0892,Snacks,Delhi,284,47,6,430,6.04,282,False,False,122120
+P0893,Dairy,Hyderabad,182,25,1,142,7.28,25,False,False,25844
+P0894,Personal Care,Bangalore,457,14,1,338,32.64,14,False,False,154466
+P0895,Snacks,Delhi,130,32,5,548,4.06,160,True,False,71240
+P0896,Snacks,Hyderabad,269,47,5,803,5.72,235,False,False,216007
+P0897,Dairy,Bangalore,330,29,9,40,11.38,261,False,False,13200
+P0898,Groceries,Hyderabad,313,5,6,959,62.6,30,False,False,300167
+P0899,Groceries,Bangalore,398,18,8,657,22.11,144,False,False,261486
+P0900,Snacks,Mumbai,101,47,6,878,2.15,282,True,False,88678
+P0901,Groceries,Bangalore,254,28,4,932,9.07,112,False,False,236728
+P0902,Groceries,Bangalore,401,48,7,170,8.35,336,False,False,68170
+P0903,Beverages,Bangalore,432,28,7,111,15.43,196,False,False,47952
+P0904,Personal Care,Delhi,309,5,8,781,61.8,40,False,False,241329
+P0905,Dairy,Mumbai,326,45,2,204,7.24,90,False,False,66504
+P0906,Snacks,Delhi,432,40,7,165,10.8,280,False,False,71280
+P0907,Dairy,Mumbai,313,37,3,479,8.46,111,False,False,149927
+P0908,Groceries,Delhi,475,49,8,916,9.69,392,False,False,435100
+P0909,Beverages,Delhi,63,14,8,800,4.5,112,True,False,50400
+P0910,Groceries,Hyderabad,174,46,7,528,3.78,322,True,False,91872
+P0911,Snacks,Delhi,56,15,10,212,3.73,150,True,False,11872
+P0912,Groceries,Hyderabad,45,49,6,349,0.92,294,True,False,15705
+P0913,Beverages,Delhi,236,13,1,695,18.15,13,False,False,164020
+P0914,Personal Care,Hyderabad,113,30,7,174,3.77,210,True,False,19662
+P0915,Dairy,Mumbai,203,41,8,534,4.95,328,True,False,108402
+P0916,Dairy,Bangalore,219,8,2,31,27.38,16,False,False,6789
+P0917,Dairy,Mumbai,311,8,2,338,38.88,16,False,False,105118
+P0918,Snacks,Mumbai,473,44,3,263,10.75,132,False,False,124399
+P0919,Beverages,Mumbai,425,7,9,688,60.71,63,False,False,292400
+P0920,Snacks,Bangalore,189,33,6,916,5.73,198,True,False,173124
+P0921,Personal Care,Mumbai,163,48,10,163,3.4,480,True,False,26569
+P0922,Dairy,Bangalore,386,33,9,802,11.7,297,False,False,309572
+P0923,Dairy,Hyderabad,61,27,6,663,2.26,162,True,False,40443
+P0924,Groceries,Mumbai,270,24,7,971,11.25,168,False,False,262170
+P0925,Beverages,Mumbai,211,34,4,914,6.21,136,False,False,192854
+P0926,Personal Care,Delhi,91,31,1,118,2.94,31,False,False,10738
+P0927,Dairy,Mumbai,308,28,4,749,11.0,112,False,False,230692
+P0928,Beverages,Delhi,160,12,6,600,13.33,72,False,False,96000
+P0929,Dairy,Delhi,92,35,2,130,2.63,70,False,False,11960
+P0930,Dairy,Hyderabad,327,39,3,272,8.38,117,False,False,88944
+P0931,Dairy,Delhi,87,37,1,929,2.35,37,False,False,80823
+P0932,Snacks,Mumbai,337,8,8,552,42.12,64,False,False,186024
+P0933,Beverages,Hyderabad,81,37,9,352,2.19,333,True,False,28512
+P0934,Snacks,Hyderabad,217,38,9,334,5.71,342,True,False,72478
+P0935,Dairy,Delhi,404,13,4,841,31.08,52,False,False,339764
+P0936,Personal Care,Delhi,114,44,6,298,2.59,264,True,False,33972
+P0937,Groceries,Mumbai,384,29,10,175,13.24,290,False,False,67200
+P0938,Groceries,Bangalore,361,26,6,582,13.88,156,False,False,210102
+P0939,Dairy,Hyderabad,452,38,3,993,11.89,114,False,False,448836
+P0940,Dairy,Delhi,84,28,4,199,3.0,112,True,False,16716
+P0941,Snacks,Delhi,358,30,8,270,11.93,240,False,False,96660
+P0942,Dairy,Mumbai,469,19,5,480,24.68,95,False,False,225120
+P0943,Personal Care,Hyderabad,382,47,9,216,8.13,423,True,False,82512
+P0944,Dairy,Delhi,94,49,9,658,1.92,441,True,False,61852
+P0945,Groceries,Mumbai,411,10,1,268,41.1,10,False,False,110148
+P0946,Groceries,Delhi,53,38,8,145,1.39,304,True,False,7685
+P0947,Personal Care,Delhi,295,6,4,276,49.17,24,False,False,81420
+P0948,Groceries,Hyderabad,249,21,6,932,11.86,126,False,False,232068
+P0949,Personal Care,Delhi,266,49,3,937,5.43,147,False,False,249242
+P0950,Beverages,Mumbai,260,13,4,516,20.0,52,False,False,134160
+P0951,Groceries,Hyderabad,15,22,4,412,0.68,88,True,False,6180
+P0952,Beverages,Bangalore,254,15,1,823,16.93,15,False,False,209042
+P0953,Snacks,Delhi,469,38,8,210,12.34,304,False,False,98490
+P0954,Dairy,Mumbai,218,26,2,661,8.38,52,False,False,144098
+P0955,Snacks,Hyderabad,138,32,4,687,4.31,128,False,False,94806
+P0956,Snacks,Mumbai,498,48,2,716,10.38,96,False,False,356568
+P0957,Dairy,Bangalore,49,28,2,233,1.75,56,True,False,11417
+P0958,Snacks,Bangalore,243,38,4,722,6.39,152,False,False,175446
+P0959,Personal Care,Bangalore,256,9,10,620,28.44,90,False,False,158720
+P0960,Dairy,Delhi,239,14,10,878,17.07,140,False,False,209842
+P0961,Groceries,Hyderabad,461,48,4,191,9.6,192,False,False,88051
+P0962,Dairy,Hyderabad,211,44,6,621,4.8,264,True,False,131031
+P0963,Personal Care,Delhi,487,35,10,833,13.91,350,False,False,405671
+P0964,Beverages,Hyderabad,33,22,3,292,1.5,66,True,False,9636
+P0965,Personal Care,Hyderabad,367,14,10,749,26.21,140,False,False,274883
+P0966,Dairy,Bangalore,297,44,2,117,6.75,88,False,False,34749
+P0967,Snacks,Mumbai,120,41,3,724,2.93,123,True,False,86880
+P0968,Beverages,Mumbai,114,16,4,614,7.12,64,False,False,69996
+P0969,Personal Care,Hyderabad,360,32,1,208,11.25,32,False,False,74880
+P0970,Groceries,Delhi,319,33,9,85,9.67,297,False,False,27115
+P0971,Beverages,Hyderabad,306,26,9,751,11.77,234,False,False,229806
+P0972,Dairy,Hyderabad,25,47,4,256,0.53,188,True,False,6400
+P0973,Dairy,Bangalore,299,10,9,507,29.9,90,False,False,151593
+P0974,Dairy,Mumbai,491,16,8,79,30.69,128,False,False,38789
+P0975,Groceries,Bangalore,8,9,9,965,0.89,81,True,False,7720
+P0976,Beverages,Delhi,234,36,9,558,6.5,324,True,False,130572
+P0977,Groceries,Hyderabad,247,34,6,933,7.26,204,False,False,230451
+P0978,Dairy,Mumbai,449,50,2,177,8.98,100,False,False,79473
+P0979,Beverages,Delhi,141,29,10,221,4.86,290,True,False,31161
+P0980,Dairy,Hyderabad,238,11,7,618,21.64,77,False,False,147084
+P0981,Dairy,Bangalore,359,25,10,613,14.36,250,False,False,220067
+P0982,Snacks,Bangalore,30,9,10,795,3.33,90,True,False,23850
+P0983,Dairy,Delhi,401,35,2,930,11.46,70,False,False,372930
+P0984,Snacks,Hyderabad,411,36,5,826,11.42,180,False,False,339486
+P0985,Dairy,Bangalore,360,44,2,157,8.18,88,False,False,56520
+P0986,Snacks,Hyderabad,324,20,1,323,16.2,20,False,False,104652
+P0987,Snacks,Hyderabad,374,19,10,916,19.68,190,False,False,342584
+P0988,Beverages,Delhi,391,8,10,558,48.88,80,False,False,218178
+P0989,Beverages,Delhi,452,24,10,870,18.83,240,False,False,393240
+P0990,Snacks,Hyderabad,214,26,9,572,8.23,234,True,False,122408
+P0991,Beverages,Bangalore,228,39,7,68,5.85,273,True,False,15504
+P0992,Dairy,Mumbai,319,39,6,483,8.18,234,False,False,154077
+P0993,Groceries,Mumbai,96,11,10,828,8.73,110,True,False,79488
+P0994,Dairy,Bangalore,428,18,6,662,23.78,108,False,False,283336
+P0995,Dairy,Hyderabad,386,28,7,150,13.79,196,False,False,57900
+P0996,Snacks,Delhi,316,20,3,226,15.8,60,False,False,71416
+P0997,Dairy,Bangalore,151,6,8,858,25.17,48,False,False,129558
+P0998,Beverages,Hyderabad,174,43,9,980,4.05,387,True,False,170520
+P0999,Personal Care,Mumbai,217,38,7,758,5.71,266,True,False,164486
+P1000,Dairy,Mumbai,331,28,5,116,11.82,140,False,False,38396
